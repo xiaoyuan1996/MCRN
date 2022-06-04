@@ -1,0 +1,60 @@
+model:
+    multiscale:
+        multiscale_input_channel: 3
+        multiscale_output_channel: 1
+    cross_attention:
+        att_type: "soft_att"
+    seq2vec:
+        arch: skipthoughts
+        dir_st: /mnt/data/person_data/yuanzhiqiang/all_data
+        type: BayesianUniSkip
+        dropout: 0.25
+        fixed_emb: False
+    embed:
+        embed_dim: 512
+        share_dropout: 0.3
+    share:
+        n_sa: 1
+        sa_drop: 0.1
+    name: MCRN
+    discriminator:
+        in_size: 512
+        mid_size: 128
+        out_size: 3
+        dropout_r: 0.1
+dataset:
+    datatype: rsicd
+    data_split:
+    data_path: '/mnt/data/person_data/yuanzhiqiang/all_codes/MCRN/data/rsicd_precomp/'
+    image_path: '/mnt/data/person_data/yuanzhiqiang/all_data/rsicd_images/'
+    audio_path: '/mnt/data/person_data/yuanzhiqiang/all_data/rsicd_audios/specs/'
+    vocab_path: '/mnt/data/person_data/yuanzhiqiang/all_codes/MCRN/vocab/rsicd_splits_vocab.json'
+    batch_size: 64
+    batch_size_val: 16
+    workers: 3
+optim:
+    epochs: 70
+    lr_D: 0.0002
+    lr_D_decay_param: 0.8
+    lr_D_update_epoch: 100
+    lr: 0.0003
+    lr_decay_param: 0.7
+    lr_update_epoch: 20
+    lr_finetune: 0.0003
+    lr_finetune_decay_param: 0.7
+    lr_finetune_update_epoch: 40
+    grad_clip: 0
+    max_violation: 0
+    margin: 0.2
+    resume: False
+    resume_Discriminator: False
+    methods: "all"
+logs:
+    eval_step: 1
+    print_freq: 10
+    ckpt_save_path: "checkpoint/"
+    logger_name: 'logs/'
+k_fold:
+    experiment_name: 'rsicd_MCRN_wf_pretrain'
+    nums: 1
+    current_num: 0
