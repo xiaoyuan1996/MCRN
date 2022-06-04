@@ -11,8 +11,8 @@ The designed model establishes a shared feature space through modal entanglement
 To cope with the lack of annotation data in the RS scene, we construct a unified unimodal self-supervised pretraining method, utilizing a large amount of unlabeled data for pre-training to obtain modal-unbound robust parameters.
 We also construct a multisource multimodal RS dataset to promote RSCR task, and utilize the constructed RS multimodal sample pairs to alignment semantics under different modalities based on the multitask learning.
 
-![arch image](./figures/f2.jpg)
-![visual image](./figures/f8.jpg)
+![arch image](./figures/f2.png)
+![visual image](./figures/f8.png)
 
 ## IMPLEMENTATION
 
