@@ -3,6 +3,11 @@ Zhiqiang Yuan, Changyuan Tian, Wenkai Zhang, Yongqiang Mao, Hongqi Wang, and Xia
 
 ### Welcome :+1:_<big>`Fork and Star`</big>_:+1:, then we'll let you know when we update
 
+
+![arch image](./figures/f2.jpg)
+![visual image](./figures/f8.jpg)
+
+
 ```bash
 Installation
 
