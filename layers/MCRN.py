@@ -145,10 +145,6 @@ class MCRN_Finetune(nn.Module):
         gv = self.share(fv)
         gt = self.share(ft)
         ga = self.share(fa)
-        #
-        # gv = fv
-        # gt = ft
-        # ga = fa
 
         # cosine
         score_vt = cosine_sim(gv, gt)
