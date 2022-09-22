@@ -125,6 +125,8 @@ If you feel this code helpful or use this code or dataset, please cite it as
 ```
 Z. Yuan et al., "MCRN: A Multi-source Cross-modal Retrieval Network for Remote Sensing," undergoing review.
 
+Z. Yuan et al., "Learning to Evaluate Performance of Multi-modal Semantic Localization," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2022.3207171.
+
 Z. Yuan et al., "Remote Sensing Cross-Modal Text-Image Retrieval Based on Global and Local Information," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2022.3163706.
 
 Z. Yuan et al., "A Lightweight Multi-scale Crossmodal Text-Image Retrieval Method In Remote Sensing," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2021.3124252.
