@@ -1,5 +1,4 @@
-## MCRN: A Multi-source Cross-modal Retrieval Network for Remote Sensing
-(undergoing review)
+## [MCRN: A Multi-source Cross-modal Retrieval Network for Remote Sensing](https://www.sciencedirect.com/science/article/pii/S156984322200259X)
 
 Zhiqiang Yuan, Changyuan Tian, Wenkai Zhang, Yongqiang Mao, Hongqi Wang, and Xian Sun.
 
@@ -123,5 +122,5 @@ Note: We use k-fold verity to do a fair compare. Other details please see the co
 ## Citation
 If you feel this code helpful or use this code or dataset, please cite it as
 ```
-Z. Yuan et al., "MCRN: A Multi-source Cross-modal Retrieval Network for Remote Sensing," undergoing review.
+Z. Yuan et al., "MCRN: A Multi-source Cross-modal Retrieval Network for Remote Sensing," in International Journal of Applied Earth Observation and Geoinformation, doi: 10.1016/j.jag.2022.103071.
 ```
