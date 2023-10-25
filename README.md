@@ -74,12 +74,11 @@ File Structure:
 Note:
 1. In order to facilitate reproduction, we have provided processed annotations.
 2. We prepare some used file::
-  (1)[seq2vec (Password:NIST)](https://pan.baidu.com/s/1jz61ZYs8NZflhU_Mm4PbaQ)
+  (1)[seq2vec (Password:NIST)]([https://pan.baidu.com/s/1jz61ZYs8NZflhU_Mm4PbaQ](https://pan.baidu.com/s/1FOPldSGO6ctETiXMlPGC8g))
   (2)[RSICD images (Password:NIST)](https://pan.baidu.com/s/1lH5m047P9m2IvoZMPsoDsQ)
   (3)[RSITMD images (Password:NIST)](https://github.com/xiaoyuan1996/AMFMN/tree/master/RSITMD)
   (4)[Audio mel-spectrums for above two datasets (Password:NIST)](https://pan.baidu.com/s/1QlUTctzv2meU-dY_S26wUg)
 ```
-
 
 ```bash
 Run: (We take the dataset RSITMD as an example)
