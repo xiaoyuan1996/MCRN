@@ -6,7 +6,7 @@ logs/
 /server/
 /visual/
 log_*
-nohup.out
+nohup.out 
 pretrain.py
 run_with_env.sh
 test_single.py
