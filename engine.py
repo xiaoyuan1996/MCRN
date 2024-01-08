@@ -2,7 +2,7 @@
 # -----------------------------------------------------------
 # "MCRN: A Multi-source Cross-modal Retrieval Network for Remote Sensing"
 # Zhiqiang Yuan, Changyuan Tian, Wenkai Zhang, Yongqiang Mao, Hongqi Wang, and Xian Sun.
-# Undergoing review.
+# Undergoing review. 
 # Writen by YuanZhiqiang, 2022.  Our code is depended on AMFMN
 # ------------------------------------------------------------
 
